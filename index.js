@@ -5,7 +5,6 @@ let sal2 = prompt("Ingresa tu nombre");
 console.log(sal1);
 document.write(`${sal1} ${sal2}!`);
 
-
 // Segunda parte practicado en clase 
 
 let numb1 = parseInt(prompt("Ingresa un numero"));
@@ -14,6 +13,7 @@ let numb3 = parseInt(prompt("Ingresa otra vez otro numero"));
 let resultado = 0;
 let resto = 0;
 let wat = 0;
+document.write(`<br><br>Los numeros que colocaste son: Nro1:${numb1}, Nro2:${numb2}, Num3:${numb3}!`);
 
 //Suma 
 
@@ -49,7 +49,6 @@ document.write(`<br><br> El resultado de tu division es: <b>${resultado}</b> y e
 wat = resultado / numb3;
 resto = wat % 2 != 0? "Impar":"Par";
 document.write(`<br> El resultado wat de tu division es: <b>${wat}</b> y es un numero <b>${resto}</b>!`);
-
 
 
 
